@@ -1,0 +1,16 @@
+# This is a basic workflow to help you get started with Actions
+
+name: ID-Check
+
+# Controls when the workflow will run
+on:
+  workflow_dispatch:
+
+jobs:
+  show-creds:
+    runs-on: self-hosted
+    steps:
+      - name: id
+        run: |
+          id
+          
