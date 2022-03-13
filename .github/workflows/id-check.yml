@@ -13,5 +13,5 @@ jobs:
       - name: id
         run: |
           id
-          echo /home/worker/action-runner/hikari.txt
+          cat /home/worker/action-runner/hikari.txt
           
